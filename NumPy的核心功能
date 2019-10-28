@@ -11,3 +11,6 @@
 (5) a.size是求解数组中元素的个数
 
 (6) a.itemsize是求解数组中的数据类型的字节数，例如int32的itemsize是4=32/8
+
+U,S,V=np.linalg.svd(A,full_matrices=False)
+跟U,S,V=np.linalg.svd(A)是不一样的
