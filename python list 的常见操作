@@ -1,0 +1,13 @@
+一，list 的几种常见的删除操作
+  （1） pop函数
+      .pop(index)，按下标索引删除元素. 例listname.pop(0)
+  （2） remove函数
+      .remove(object)，删除list中出现的第一个与object值相同的元素。 例listname.remove(listname[0])
+  （3） del函数
+      del listname[start:end]
+      删除list中下标为start到下标为end间的元素，但不包括end本身
+      
+二，list切片操作
+  （1）newlist = listname[start:end]
+  
+   (2) newlist = [item for item in listname]
